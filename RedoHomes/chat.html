@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Support Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+   <link rel="stylesheet" href="./assets/css/chat.css">
+   <script src="./assets/js/chat.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-section">
+            <div class="profile-photo">
+                <div class="active-status"></div>
+            </div>
+            <div class="profile-info">
+                <h1>Service Support</h1>
+                <p>Active now</p>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Support Chat</h2>
+            </div>
+            <div class="chat-window" id="chat-window">
+                <div class="message received">
+                    <p>Hello! How can I assist you today?</p>
+                    <span class="timestamp">10:01 AM</span>
+                </div>
+                <div class="message received">
+                    <p>Please describe your issue and we'll help you resolve it as quickly as possible.</p>
+                    <span class="timestamp">10:02 AM</span>
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" id="user-input" placeholder="Type your message...">
+                <button class="send-button" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Customer Support. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
